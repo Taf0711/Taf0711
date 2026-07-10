@@ -14,6 +14,12 @@
 
 <br>
 
+<a href="https://www.last.fm/user/L03ST">
+  <img src="https://cider-now-playing.vercel.app/api/now-playing?user=L03ST" alt="Last.fm now playing" />
+</a>
+
+<br>
+
 <a href="https://taf0711.github.io/nbody-galaxy-sim">galaxy sim</a> · <a href="https://github.com/Taf0711/TCP-IP-Stack">tcp/ip stack</a> · <a href="https://github.com/Taf0711/JIT-Access">jit access</a> · <a href="https://github.com/Taf0711/Splice">splice</a>
 
 <br>
