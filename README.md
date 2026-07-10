@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://github.com/Taf0711">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=600&lines=learning+to+build+ambitious+things" alt="typing" />
+  <img src="assets/terminal-header.svg" alt="terminal header" />
 </a>
 
 <br>
