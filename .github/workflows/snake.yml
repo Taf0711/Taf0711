@@ -20,10 +20,13 @@ jobs:
             output/github-snake-dark.svg?palette=github-dark
       - name: Hide progress bar
         run: |
-          sed -i -E 's/<rect class="u u[0-9]"[^>]*\/>//g' output/github-snake.svg output/github-snake-dark.svg
+          mkdir -p out
+          for f in output/github-snake.svg output/github-snake-dark.svg; do
+            sed -E 's/<rect class="u u[0-9]"[^>]*\/>//g' "$f" > "out/$(basename "$f")"
+          done
       - uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
-          build_dir: output
+          build_dir: out
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
