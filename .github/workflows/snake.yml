@@ -18,6 +18,9 @@ jobs:
           outputs: |
             output/github-snake.svg
             output/github-snake-dark.svg?palette=github-dark
+      - name: Hide progress bar
+        run: |
+          sed -i -E 's/<rect class="u u[0-9]"[^>]*\/>//g' output/github-snake.svg output/github-snake-dark.svg
       - uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
