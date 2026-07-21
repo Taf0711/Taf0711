@@ -98,12 +98,12 @@ def render(grid: list[tuple[int, int, int]], total: int) -> str:
 <rect width="{W}" height="{H}" rx="4" ry="4" fill="{BG}" stroke="{BORDER}" stroke-width="{BEZEL}"/>
 <rect x="4" y="4" width="{W - 8}" height="{H - 8}" rx="2" ry="2" fill="{FACE}"/>
 <rect width="{W}" height="{H}" fill="url(#scan)" opacity="0.9"/>
+<rect width="{W}" height="{H}" fill="url(#vignette)"/>
 <text x="{INSET_X}" y="{HEADER_Y}" font-family="{FONT}" font-size="12" font-weight="700" letter-spacing="1.4" fill="{DIM}">ACTIVITY LOG // USER: {USER}</text>
 <text x="{W - INSET_X}" y="{HEADER_Y}" text-anchor="end" font-family="{FONT}" font-size="11" font-weight="700" letter-spacing="1.2" fill="{DIM}">ONLINE</text>
 <line x1="{INSET_X}" y1="{RULE_Y}" x2="{W - INSET_X}" y2="{RULE_Y}" stroke="{FAINT}" stroke-width="1"/>
 {''.join(rects)}
 <text x="{INSET_X}" y="{FOOTER_Y}" font-family="{FONT}" font-size="11" font-weight="600" letter-spacing="1" fill="{DIM}">&gt; {total_s} OPERATIONS LOGGED [365D]</text>
-<rect width="{W}" height="{H}" fill="url(#vignette)"/>
 </svg>'''
 
 
