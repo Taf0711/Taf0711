@@ -6,11 +6,7 @@
 
 <br>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Taf0711/Taf0711/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Taf0711/Taf0711/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/Taf0711/Taf0711/output/github-snake-dark.svg" width="680" />
-</picture>
+<img src="https://raw.githubusercontent.com/Taf0711/Taf0711/output/activity-log.svg" alt="activity log" style="max-width:100%;height:auto" />
 
 <br>
 
