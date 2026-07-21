@@ -87,7 +87,7 @@ def render(grid: list[tuple[int, int, int]], total: int) -> str:
 <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
 </filter>
 <radialGradient id="vignette" cx="50%" cy="48%" r="70%">
-<stop offset="55%" stop-color="#ffffff" stop-opacity="0"/>
+<stop offset="55%" stop-color="{BG}" stop-opacity="0"/>
 <stop offset="100%" stop-color="{BG}" stop-opacity="0.85"/>
 </radialGradient>
 <pattern id="scan" width="3" height="3" patternUnits="userSpaceOnUse">
