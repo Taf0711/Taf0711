@@ -18,6 +18,6 @@
 
 <p>projects: <a href="https://taf0711.github.io/nbody-galaxy-sim">galaxy sim</a> · <a href="https://github.com/Taf0711/TCP-IP-Stack">tcp/ip stack</a> · <a href="https://github.com/Taf0711/JIT-Access">jit access</a> · <a href="https://github.com/Taf0711/Splice">splice</a></p>
 
-<p> · nyc · hunter cs '26 · ex-JPMC</p>
+<p>  nyc · hunter cs '26 · ex-JPMC</p>
 
 </div>
